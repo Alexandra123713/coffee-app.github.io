@@ -1,530 +1,536 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0" />
-    <title>Cafe Street</title>
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com" />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="./style.css" />
-  </head>
-  <body id="body">
-    <div class="main-page-container">
-      <img
-        src="./images/bg_img_hero2.svg"
-        alt="bg-img"
-        class="background-1"
-        height="394px"
-        width="569px" />
-      <img
-        src="./images/bg_img_1.png"
-        alt="bg-img"
-        class="background-2"
-        height="408px"
-        width="612px" />
-      <div
-        class="nav"
-        id="navbar">
-        <a href="#content-container">
-          <img
-            src="./images/logo_coffe.svg"
-            alt="Cafe Street"
-            class="logo" />
-        </a>
-        <div class="nav-items">
-          <div><a href="#bcg-2">About us</a></div>
-          <div><a href="#menu">Our Product</a></div>
-          <div><a href="#how-to-use">Delivery</a></div>
-        </div>
-        <div class="search-bar">
-          <input
-            type="text"
-            id="searchInput"
-            placeholder="Search" />
-          <img
-            src="./images/akar-icons_search.svg"
-            alt="search"
-            class="search-icon" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Cafe Street</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="./style.css" />
+	</head>
+	<body id="body">
+		<nav>
+			<div
+				class="navbar"
+				id="navbar">
+				<a href="#content-container">
+					<img
+						src="./images/logo_coffe.svg"
+						alt="Cafe Street"
+						class="logo" />
+				</a>
+				<div class="nav-items">
+					<div><a href="#bcg-2">About us</a></div>
+					<div><a href="#menu">Our Product</a></div>
+					<div><a href="#how-to-use">Delivery</a></div>
+				</div>
+				<div class="search-bar">
+					<input
+						type="text"
+						id="searchInput"
+						placeholder="Search" />
+					<img
+						src="./images/akar-icons_search.svg"
+						alt="search"
+						class="search-icon" />
 
-          <ul id="result-list"></ul>
-        </div>
-        <img
-          src="./images/icons_cart.svg"
-          alt="icon"
-          class="icon-1" />
-      </div>
+					<ul id="result-list"></ul>
+				</div>
+				<img
+					src="./images/icons_cart.svg"
+					alt="icon"
+					class="icon-1" />
+			</div>
+		</nav>
+		<header>
+			<div class="hero-section">
+				<img
+					src="./images/bg_img_hero2.svg"
+					alt="bg-img"
+					class="background-1"
+					height="394px"
+					width="569px" />
+				<img
+					src="./images/bg_img_1.png"
+					alt="bg-img"
+					class="background-2"
+					height="408px"
+					width="612px" />
 
-      <div
-        class="content-container"
-        id="content-container">
-        <div class="left-content">
-          <div class="title">
-            Enjoy your <span style="color: #ff902b">coffee</span> before your
-            activity
-          </div>
-          <div class="text">
-            Boost your productivity and build your mood with a glass of coffee
-            in the morning
-          </div>
-          <div class="buttons">
-            <button type="button">
-              Order now
-              <img
-                src="./images/icon_small.svg"
-                alt="icon" />
-            </button>
-            <div class="more">More menu</div>
-          </div>
-          <div class="popular-now">
-            Popular
-            <span style="text-decoration: underline #ff902b 4px">Now</span>
-          </div>
-        </div>
-        <div class="right-content">
-          <img
-            src="./images/Group 13.png"
-            alt="coffee"
-            height="416px" />
-          <div class="cappuccino">Cappuccino</div>
-          <div class="raiting">
-            4.8
-            <img
-              src="./images/star.svg"
-              alt="star" />
-          </div>
-          <div class="price">18K</div>
-        </div>
-      </div>
-    </div>
-    <div class="bg-box">
-      <img
-        src="./images/Rectangle 2bg-box.svg"
-        alt="bg-box"
-        class="bg-box-img" />
-      <div
-        class="card"
-        id="vanilla-latte">
-        <div class="card-raiting">
-          <div>4.8</div>
-          <img
-            src="./images/star.svg"
-            alt="star"
-            height="14px"
-            width="14px" />
-        </div>
-        <img
-          src="./images/vanilla_latte.png"
-          alt="vanilla-latte"
-          class="card-img" />
-        <div class="all-card-text">
-          <div class="card-text">
-            <div>Vanilla Latte</div>
-            <div id="price">21 K</div>
-          </div>
-          <div class="card-buttons">
-            <button type="button">Hot</button>
-            <button type="button">Cold</button>
-            <img
-              src="./images/Frame 5card-icon.svg"
-              alt="icon" />
-          </div>
-        </div>
-      </div>
-      <div
-        class="card"
-        id="espresso">
-        <div class="card-raiting">
-          <div>4.8</div>
-          <img
-            src="./images/star.svg"
-            alt="star"
-            height="14px"
-            width="14px" />
-        </div>
-        <img
-          src="./images/espresso.png"
-          alt="espresso"
-          class="card-img" />
-        <div class="all-card-text">
-          <div class="card-text">
-            <div>Espresso</div>
-            <div id="price">12 K</div>
-          </div>
-          <div class="card-buttons">
-            <button type="button">Hot</button>
-            <button type="button">Cold</button>
-            <img
-              src="./images/Frame 5card-icon.svg"
-              alt="icon" />
-          </div>
-        </div>
-      </div>
-      <div
-        class="card"
-        id="hazelnut-latte">
-        <div class="card-raiting">
-          <div>4.8</div>
-          <img
-            src="./images/star.svg"
-            alt="star"
-            height="14px"
-            width="14px" />
-        </div>
-        <img
-          src="./images/hazelnut latte.png"
-          alt="hazelnut-latte"
-          class="card-img" />
-        <div class="all-card-text">
-          <div class="card-text">
-            <div>Hazelnut Latte</div>
-            <div id="price">23 K</div>
-          </div>
-          <div class="card-buttons">
-            <button type="button">Hot</button>
-            <button type="button">Cold</button>
-            <img
-              src="./images/Frame 5card-icon.svg"
-              alt="icon" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="delivery-box">
-      <div id="how-to-use">
-        How to use delivery
-        <span style="text-decoration: underline #ff902b 4px">service</span>
-      </div>
-      <div class="delivery-cards">
-        <div class="delivery-card">
-          <img
-            src="./images/imagedeliv1.svg"
-            alt="delivery"
-            width="159px"
-            height="159px" />
-          <div class="h1-delivery">choose your coffee</div>
-          <div class="h2-delivery">there are 20+ coffees for you</div>
-        </div>
-        <div class="delivery-card">
-          <img
-            src="./images/food-truck 1deliv.2.svg"
-            alt="delivery"
-            width="159px"
-            height="159px" />
-          <div class="h1-delivery">we delivery it to you</div>
-          <div class="h2-delivery">Choose delivery service</div>
-        </div>
-        <div class="delivery-card">
-          <img
-            src="./images/coffee-cup 2deliv3.svg"
-            alt="delivery"
-            width="159px"
-            height="159px" />
-          <div class="h1-delivery">Enjoy your coffee</div>
-          <div class="h2-delivery">Choose delivery service</div>
-        </div>
-      </div>
-    </div>
-    <div class="about-us-container">
-      <img
-        id="bcg-2"
-        src="./images/Excludebackground2.svg"
-        alt="background-2" />
-      <div class="img-border">
-        <img
-          class="about-img"
-          src="./images/about.png"
-          alt="coffee-cup" />
-      </div>
+				<div
+					class="content-container"
+					id="content-container">
+					<div class="left-content">
+						<div class="title">
+							Enjoy your <span style="color: #ff902b">coffee</span> before your
+							activity
+						</div>
+						<div class="text">
+							Boost your productivity and build your mood with a glass of coffee
+							in the morning
+						</div>
+						<div class="buttons">
+							<button type="button">
+								Order now
+								<img
+									src="./images/icon_small.svg"
+									alt="icon" />
+							</button>
+							<div class="more">More menu</div>
+						</div>
+					</div>
+					<div class="right-content">
+						<img
+							src="./images/Group 13.png"
+							alt="coffee"
+							height="416px" />
+						<div class="cappuccino">Cappuccino</div>
+						<div class="raiting">
+							4.8
+							<img
+								src="./images/star.svg"
+								alt="star" />
+						</div>
+						<div class="price">18K</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="popular-now-container">
+				<h3>
+					Popular
+					<span style="text-decoration: underline #ff902b 4px">Now</span>
+				</h3>
+				<div class="popular-product-container">
+					<div
+						class="card"
+						id="vanilla-latte">
+						<div class="card-raiting">
+							<div>4.8</div>
+							<img
+								src="./images/star.svg"
+								alt="star"
+								height="14px"
+								width="14px" />
+						</div>
+						<img
+							src="./images/vanilla_latte.png"
+							alt="vanilla-latte"
+							class="card-img" />
+						<div class="all-card-text">
+							<div class="card-text">
+								<div>Vanilla Latte</div>
+								<div id="price">21 K</div>
+							</div>
+							<div class="card-buttons">
+								<button type="button">Hot</button>
+								<button type="button">Cold</button>
+								<img
+									src="./images/Frame 5card-icon.svg"
+									alt="icon" />
+							</div>
+						</div>
+					</div>
+					<div
+						class="card"
+						id="espresso">
+						<div class="card-raiting">
+							<div>4.8</div>
+							<img
+								src="./images/star.svg"
+								alt="star"
+								height="14px"
+								width="14px" />
+						</div>
+						<img
+							src="./images/espresso.png"
+							alt="espresso"
+							class="card-img" />
+						<div class="all-card-text">
+							<div class="card-text">
+								<div>Espresso</div>
+								<div id="price">12 K</div>
+							</div>
+							<div class="card-buttons">
+								<button type="button">Hot</button>
+								<button type="button">Cold</button>
+								<img
+									src="./images/Frame 5card-icon.svg"
+									alt="icon" />
+							</div>
+						</div>
+					</div>
+					<div
+						class="card"
+						id="hazelnut-latte">
+						<div class="card-raiting">
+							<div>4.8</div>
+							<img
+								src="./images/star.svg"
+								alt="star"
+								height="14px"
+								width="14px" />
+						</div>
+						<img
+							src="./images/hazelnut latte.png"
+							alt="hazelnut-latte"
+							class="card-img" />
+						<div class="all-card-text">
+							<div class="card-text">
+								<div>Hazelnut Latte</div>
+								<div id="price">23 K</div>
+							</div>
+							<div class="card-buttons">
+								<button type="button">Hot</button>
+								<button type="button">Cold</button>
+								<img
+									src="./images/Frame 5card-icon.svg"
+									alt="icon" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-      <div class="about-us">
-        <div class="h1-about">
-          About <span style="text-decoration: underline #ff902b 4px">us</span>
-        </div>
-        <div class="h2-about">
-          We provide quality coffee, and ready to deliver.
-        </div>
-        <div class="h3-about">
-          We are a company that makes and distributes delicious drinks. our main
-          product is made with a secret recipe and available in stores
-          worldwide.
-        </div>
-        <button type="button">Get your coffee</button>
-      </div>
-    </div>
-    <div class="menu-container">
-      <div
-        id="menu"
-        class="special-menu">
-        Special menu
-        <span style="text-decoration: underline #ff902b 4px">for you</span>
-      </div>
-      <div class="menu-card-box">
-        <div
-          class="menu-card"
-          id="sandwich">
-          <div class="card-raiting">
-            <div>4.8</div>
-            <img
-              src="./images/star.svg"
-              alt="star"
-              height="14px"
-              width="14px" />
-          </div>
-          <img
-            src="./images/sandwich.png"
-            alt="Sandwich"
-            class="card-img" />
-          <div class="menu-text-box">
-            <div class="card-text">
-              <div>Sandwich</div>
-              <div id="price">12 K</div>
-            </div>
-            <div class="menu-text-2">
-              <div>bread with meat and vegetables</div>
-              <img
-                src="./images/Frame 5card-icon.svg"
-                alt="icon" />
-            </div>
-          </div>
-        </div>
-        <div
-          class="menu-card"
-          id="hot-milk">
-          <div class="card-raiting">
-            <div>4.8</div>
-            <img
-              src="./images/star.svg"
-              alt="star"
-              height="14px"
-              width="14px" />
-          </div>
-          <img
-            src="./images/hot_milk.png"
-            alt="Hot Milk"
-            class="card-img" />
-          <div class="menu-text-box">
-            <div class="card-text">
-              <div>Hot Milk</div>
-              <div id="price">12 K</div>
-            </div>
-            <div class="menu-text-2">
-              <div>Hot Milk with less sugar</div>
-              <img
-                src="./images/Frame 5card-icon.svg"
-                alt="icon" />
-            </div>
-          </div>
-        </div>
-        <div
-          class="menu-card"
-          id="coffee-ice-cream">
-          <div class="card-raiting">
-            <div>4.8</div>
-            <img
-              src="./images/star.svg"
-              alt="star"
-              height="14px"
-              width="14px" />
-          </div>
-          <img
-            src="./images/coffe_ice_cream.png"
-            alt="Coffe Ice Cream"
-            class="card-img" />
-          <div class="menu-text-box">
-            <div class="card-text">
-              <div>Coffe Ice Cream</div>
-              <div id="price">12 K</div>
-            </div>
-            <div class="menu-text-2">
-              <div>Coffe with ice cream vanilla</div>
-              <img
-                src="./images/Frame 5card-icon.svg"
-                alt="icon" />
-            </div>
-          </div>
-        </div>
-        <div
-          class="menu-card"
-          id="cappuccino">
-          <div class="card-raiting">
-            <div>4.8</div>
-            <img
-              src="./images/star.svg"
-              alt="star"
-              height="14px"
-              width="14px" />
-          </div>
-          <img
-            src="./images/cappucino.png"
-            alt="Cappuccino"
-            class="card-img" />
-          <div class="menu-text-box">
-            <div class="card-text">
-              <div>Cappucino</div>
-              <div id="price">12 K</div>
-            </div>
-            <div class="menu-text-2">
-              <div>Hot Cappucino</div>
-              <img
-                src="./images/Frame 5card-icon.svg"
-                alt="icon" />
-            </div>
-          </div>
-        </div>
-        <div
-          class="menu-card"
-          id="moccacinno">
-          <div class="card-raiting">
-            <div>4.8</div>
-            <img
-              src="./images/star.svg"
-              alt="star"
-              height="14px"
-              width="14px" />
-          </div>
-          <img
-            src="./images/maccacinno.png"
-            alt="Moccacinno"
-            class="card-img" />
-          <div class="menu-text-box">
-            <div class="card-text">
-              <div>Moccacinno</div>
-              <div id="price">12 K</div>
-            </div>
-            <div class="menu-text-2">
-              <div>Hot Moccacinno</div>
-              <img
-                src="./images/Frame 5card-icon.svg"
-                alt="icon" />
-            </div>
-          </div>
-        </div>
-        <div
-          class="menu-card"
-          id="waffle-ice-cream">
-          <div class="card-raiting">
-            <div>4.8</div>
-            <img
-              src="./images/star.svg"
-              alt="star"
-              height="14px"
-              width="14px" />
-          </div>
-          <img
-            src="./images/waffle.png"
-            alt="Waffle Ice Crem"
-            class="card-img" />
-          <div class="menu-text-box">
-            <div class="card-text">
-              <div>Waffle Ice Cream</div>
-              <div id="price">12 K</div>
-            </div>
-            <div class="menu-text-2">
-              <div>Wafle with Ice cream</div>
-              <img
-                src="./images/Frame 5card-icon.svg"
-                alt="icon" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+			<div class="delivery-box">
+				<div id="how-to-use">
+					How to use delivery
+					<span style="text-decoration: underline #ff902b 4px">service</span>
+				</div>
+				<div class="delivery-cards">
+					<div class="delivery-card">
+						<img
+							src="./images/imagedeliv1.svg"
+							alt="delivery"
+							width="159px"
+							height="159px" />
+						<div class="h1-delivery">choose your coffee</div>
+						<div class="h2-delivery">there are 20+ coffees for you</div>
+					</div>
+					<div class="delivery-card">
+						<img
+							src="./images/food-truck 1deliv.2.svg"
+							alt="delivery"
+							width="159px"
+							height="159px" />
+						<div class="h1-delivery">we delivery it to you</div>
+						<div class="h2-delivery">Choose delivery service</div>
+					</div>
+					<div class="delivery-card">
+						<img
+							src="./images/coffee-cup 2deliv3.svg"
+							alt="delivery"
+							width="159px"
+							height="159px" />
+						<div class="h1-delivery">Enjoy your coffee</div>
+						<div class="h2-delivery">Choose delivery service</div>
+					</div>
+				</div>
+			</div>
+			<div class="about-us-container">
+				<div class="about-us-content">
+					<div class="img-wrapper">
+						<img
+							class="about-img"
+							src="./images/about.png"
+							alt="coffee-cup" />
+					</div>
 
-    <div class="review-box">
-      <div class="review-bg">
-        <img
-          src="./images/Exclude2.svg"
-          alt="bg-img" />
-        <div class="what-they-say">What they say about us</div>
-        <div class="what-they-say-text">
-          We always provide the best service and always maintain the quality of
-          coffee
-        </div>
-      </div>
-      <div class="review-card-box">
-        <div class="bullet">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div class="rewiew-card">
-          <img
-            src="./images/naura.png"
-            alt="Naura"
-            width="204px"
-            height="280px" />
-          <div class="rewiew-text-box">
-            <div class="rewiew-text-container">
-              <div class="name">Naura</div>
-              <div class="review">
-                I really love the cappucino, the coffee was very smooth
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="rewiew-card">
-          <img
-            src="./images/john.png"
-            alt="John"
-            width="204px"
-            height="280px" />
-          <div class="rewiew-text-box">
-            <div class="rewiew-text-container">
-              <div class="name">John</div>
-              <div class="review">this coffee shop is very convenient</div>
-            </div>
-          </div>
-        </div>
-        <div class="rewiew-card">
-          <img
-            src="./images/azura.png"
-            alt="Azura"
-            width="204px"
-            height="280px" />
-          <div class="rewiew-text-box">
-            <div class="rewiew-text-container">
-              <div class="name">Azura</div>
-              <div class="review">the coffee menu here is very much</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="subscribe">
-      <img
-        src="./images/unsplash_ftA71vetxuo.png"
-        alt="subscibe" />
-      <div class="subscribe-content-box">
-        <div class="subscribe-text">Subscribe to get 50% discount price</div>
-        <div class="subscribe-bar">
-          <input
-            type="text"
-            id="email-adress"
-            placeholder="Email address" />
-          <button
-            type="button"
-            onclick="validareEmail()"
-            id="subscribe-button">
-            Order now
-          </button>
-          <div id="result"></div>
-          <div id="error"></div>
-        </div>
-      </div>
-    </div>
-    <script src="./js_file.js"></script>
-  </body>
+					<div class="about-us">
+						<div class="h1-about">
+							About
+							<span style="text-decoration: underline #ff902b 4px">us</span>
+						</div>
+						<div class="h2-about">
+							We provide quality coffee, and ready to deliver.
+						</div>
+						<div class="h3-about">
+							We are a company that makes and distributes delicious drinks. our
+							main product is made with a secret recipe and available in stores
+							worldwide.
+						</div>
+						<button type="button">Get your coffee</button>
+					</div>
+				</div>
+			</div>
+			<div class="menu-container">
+				<div
+					id="menu"
+					class="special-menu">
+					Special menu
+					<span style="text-decoration: underline #ff902b 4px">for you</span>
+				</div>
+				<div class="menu-card-box">
+					<div
+						class="menu-card"
+						id="sandwich">
+						<div class="card-raiting">
+							<div>4.8</div>
+							<img
+								src="./images/star.svg"
+								alt="star"
+								height="14px"
+								width="14px" />
+						</div>
+						<img
+							src="./images/sandwich.png"
+							alt="Sandwich"
+							class="card-img" />
+						<div class="menu-text-box">
+							<div class="card-text">
+								<div>Sandwich</div>
+								<div id="price">12 K</div>
+							</div>
+							<div class="menu-text-2">
+								<div>bread with meat and vegetables</div>
+								<img
+									src="./images/Frame 5card-icon.svg"
+									alt="icon" />
+							</div>
+						</div>
+					</div>
+					<div
+						class="menu-card"
+						id="hot-milk">
+						<div class="card-raiting">
+							<div>4.8</div>
+							<img
+								src="./images/star.svg"
+								alt="star"
+								height="14px"
+								width="14px" />
+						</div>
+						<img
+							src="./images/hot_milk.png"
+							alt="Hot Milk"
+							class="card-img" />
+						<div class="menu-text-box">
+							<div class="card-text">
+								<div>Hot Milk</div>
+								<div id="price">12 K</div>
+							</div>
+							<div class="menu-text-2">
+								<div>Hot Milk with less sugar</div>
+								<img
+									src="./images/Frame 5card-icon.svg"
+									alt="icon" />
+							</div>
+						</div>
+					</div>
+					<div
+						class="menu-card"
+						id="coffee-ice-cream">
+						<div class="card-raiting">
+							<div>4.8</div>
+							<img
+								src="./images/star.svg"
+								alt="star"
+								height="14px"
+								width="14px" />
+						</div>
+						<img
+							src="./images/coffe_ice_cream.png"
+							alt="Coffe Ice Cream"
+							class="card-img" />
+						<div class="menu-text-box">
+							<div class="card-text">
+								<div>Coffe Ice Cream</div>
+								<div id="price">12 K</div>
+							</div>
+							<div class="menu-text-2">
+								<div>Coffe with ice cream vanilla</div>
+								<img
+									src="./images/Frame 5card-icon.svg"
+									alt="icon" />
+							</div>
+						</div>
+					</div>
+					<div
+						class="menu-card"
+						id="cappuccino">
+						<div class="card-raiting">
+							<div>4.8</div>
+							<img
+								src="./images/star.svg"
+								alt="star"
+								height="14px"
+								width="14px" />
+						</div>
+						<img
+							src="./images/cappucino.png"
+							alt="Cappuccino"
+							class="card-img" />
+						<div class="menu-text-box">
+							<div class="card-text">
+								<div>Cappucino</div>
+								<div id="price">12 K</div>
+							</div>
+							<div class="menu-text-2">
+								<div>Hot Cappucino</div>
+								<img
+									src="./images/Frame 5card-icon.svg"
+									alt="icon" />
+							</div>
+						</div>
+					</div>
+					<div
+						class="menu-card"
+						id="moccacinno">
+						<div class="card-raiting">
+							<div>4.8</div>
+							<img
+								src="./images/star.svg"
+								alt="star"
+								height="14px"
+								width="14px" />
+						</div>
+						<img
+							src="./images/maccacinno.png"
+							alt="Moccacinno"
+							class="card-img" />
+						<div class="menu-text-box">
+							<div class="card-text">
+								<div>Moccacinno</div>
+								<div id="price">12 K</div>
+							</div>
+							<div class="menu-text-2">
+								<div>Hot Moccacinno</div>
+								<img
+									src="./images/Frame 5card-icon.svg"
+									alt="icon" />
+							</div>
+						</div>
+					</div>
+					<div
+						class="menu-card"
+						id="waffle-ice-cream">
+						<div class="card-raiting">
+							<div>4.8</div>
+							<img
+								src="./images/star.svg"
+								alt="star"
+								height="14px"
+								width="14px" />
+						</div>
+						<img
+							src="./images/waffle.png"
+							alt="Waffle Ice Crem"
+							class="card-img" />
+						<div class="menu-text-box">
+							<div class="card-text">
+								<div>Waffle Ice Cream</div>
+								<div id="price">12 K</div>
+							</div>
+							<div class="menu-text-2">
+								<div>Wafle with Ice cream</div>
+								<img
+									src="./images/Frame 5card-icon.svg"
+									alt="icon" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="review-container">
+				<div class="review-bg">
+					<img
+						src="./images/Exclude2.svg"
+						alt="bg-img" />
+					<div class="what-they-say">What they say about us</div>
+					<div class="what-they-say-text">
+						We always provide the best service and always maintain the quality
+						of coffee
+					</div>
+				</div>
+
+				<div class="review-card-box">
+					<div class="bullet">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div class="rewiew-card">
+						<img
+							src="./images/naura.png"
+							alt="Naura"
+							width="204px"
+							height="280px" />
+						<div class="rewiew-text-box">
+							<div class="rewiew-text-container">
+								<div class="name">Naura</div>
+								<div class="review">
+									I really love the cappucino, the coffee was very smooth
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="rewiew-card">
+						<img
+							src="./images/john.png"
+							alt="John"
+							width="204px"
+							height="280px" />
+						<div class="rewiew-text-box">
+							<div class="rewiew-text-container">
+								<div class="name">John</div>
+								<div class="review">this coffee shop is very convenient</div>
+							</div>
+						</div>
+					</div>
+					<div class="rewiew-card">
+						<img
+							src="./images/azura.png"
+							alt="Azura"
+							width="204px"
+							height="280px" />
+						<div class="rewiew-text-box">
+							<div class="rewiew-text-container">
+								<div class="name">Azura</div>
+								<div class="review">the coffee menu here is very much</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="subscribe">
+				<img
+					src="./images/unsplash_ftA71vetxuo.png"
+					alt="subscibe" />
+				<div class="subscribe-content-box">
+					<div class="subscribe-text">Subscribe to get 50% discount price</div>
+					<div class="subscribe-bar">
+						<input
+							type="text"
+							id="email-adress"
+							placeholder="Email address" />
+						<button
+							type="button"
+							onclick="validareEmail()"
+							id="subscribe-button">
+							Order now
+						</button>
+						<div id="result"></div>
+						<div id="error"></div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script src="./js_file.js"></script>
+	</body>
 </html>
 0
