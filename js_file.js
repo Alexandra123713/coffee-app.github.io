@@ -70,6 +70,9 @@ function filterMenu(searchText) {
 		noResult = document.createElement('li');
 		noResult.textContent = 'No result';
 		resultList.appendChild(noResult);
+		resultList.style.background = 'white';
+		resultList.style.borderRadius = '24px';
+		resultList.style.border = '1px solid black';
 	}
 }
 
