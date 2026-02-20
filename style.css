@@ -597,7 +597,7 @@ button:hover {
 }
 .review-bg {
 	border-radius: 24px;
-	background: #f6ebda;
+	background-image: url("./images/Exclude2.png");
 	width: 900px;
 	height: 484px;
 	display: flex;
@@ -606,11 +606,6 @@ button:hover {
 	z-index: -1;
 	gap: 16px;
 	justify-content: center;
-}
-.review-bg img {
-	border-radius: 24px;
-	position: absolute;
-	z-index: -1;
 }
 .what-they-say {
 	color: #000;
