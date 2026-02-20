@@ -28,6 +28,25 @@ This is a web project simulating an interactive menu for a coffee shop, offering
 
 - DOM manipulation, menu filtering, card highlighting, email validation, etc.
 
+## Cross-Browser Compatibility
+
+The project was tested in multiple modern browsers to ensure consistent rendering, layout stability, and UI behavior.
+
+Browsers tested:
+
+- Google Chrome
+- Safari
+- Mozilla Firefox
+- Microsoft Edge
+
+Special attention was given to:
+
+- Sticky positioning
+- Multiple background layers
+- Image rendering
+- Flexbox and Grid layouts
+- Form styling and placeholder consistency
+
 ## Status
 
 Learning project with potential for further optimizations and enhancements.
@@ -35,41 +54,3 @@ Learning project with potential for further optimizations and enhancements.
 ### Author
 
 Project created by **Cerevatii Alexandra**.
-
-**Romana**
-
-# COFFEE-APP
-
-Acesta este un proiect web care simulează un meniu interactiv pentru o cafenea, oferind funcționalități dinamice precum căutare de produse, evidențierea produselor, abonare prin e-mail cu validare și un navbar care reacționează la scroll.
-
-## Funcționalități
-
-- **Căutare live:** filtrează meniul în timp real pe baza textului introdus.
-- **Navigare către elementul din meniu** – la click pe un rezultat, utilizatorul este dus direct la acel element din pagină, care este evidențiat.
-- **Evidențiere produs:** utilizatorul poate selecta un produs, iar acesta va fi evidențiat pe pagină.
-- **Abonare la newsletter:** include validare JavaScript pentru adrese de e-mail și feedback vizual.
-- **Navbar fixed:** la scroll, navbarul rămâne fixat în partea de sus a paginii și își schimbă stilul pentru a îmbunătăți lizibilitatea.
-- **Navigare internă în pagină (cu ancore)**
-
-## Tehnologii folosite
-
-**HTML**
-
-**CSS**
-
-- Flexbox (`display: flex`, `justify-content`, `align-items`)
-- Poziționare (`position: absolute`, `position: relative`)
-- Pseudo-elemente (`::before`)
-- Stilizare interactivă (`:hover`, `border-radius`, `box-shadow`)
-
-**JavaScript (Vanilla JS)**
-
-- Manipulare DOM, filtrare meniu, evidențiere carduri, validare email, etc.
-
-## Statut
-
-Proiect de învățare, cu potențial pentru optimizări și extinderi ulterioare.
-
-### Autor
-
-Proiect realizat de **Cerevatii Alexandra**
