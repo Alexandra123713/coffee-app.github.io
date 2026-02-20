@@ -31,6 +31,19 @@ input {
 	background-color: #fff;
 }
 
+input::placeholder {
+	color: #929292;
+	font-size: 12px;
+	opacity: 1;
+}
+
+#email-adress::placeholder {
+	color: #7E7D7A;
+	font-size: 16px;
+	font-weight: 500;
+	opacity: 1;
+}
+
 header {
 	background-color: #f6ebda;
 	position: relative;
@@ -91,6 +104,9 @@ main {
 	position: relative;
 	height: 970px;
 	margin: auto;
+	background-image: url('images/bg_img_hero.svg'), url('images/bg_img_hero.svg');
+	background-position: top right, bottom left;
+	background-repeat: no-repeat;
 }
 
 .content-container {
@@ -211,7 +227,7 @@ main {
 	backdrop-filter: blur(2px);
 	position: absolute;
 }
-.price {
+.clients {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -224,10 +240,10 @@ main {
 	color: #2f2105;
 	font-weight: 600;
 	position: absolute;
-	bottom: 170px;
-	left: 40px;
+	bottom: 23px;
+	left: 80px;
 }
-.price::before {
+.clients::before {
 	width: 155px;
 	height: 69px;
 	content: '';
@@ -240,18 +256,6 @@ main {
 	);
 	backdrop-filter: blur(2px);
 	position: absolute;
-}
-.background-1 {
-	position: absolute;
-	z-index: 0;
-	left: 0;
-	bottom: 0;
-}
-.background-2 {
-	position: absolute;
-	z-index: 0;
-	right: -110px;
-	top: -34px;
 }
 
 .popular-now-container {
